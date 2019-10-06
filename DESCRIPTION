@@ -1,0 +1,16 @@
+Package: RCrimeStat
+Type: Package
+Title: Lab5
+Version: 1.0
+Date: 2019-10-06
+Author: Muhammad Faizan Khalid, Fahed Maqbool, Asad Enver
+Maintainer: Who to complain to <fahma041@liu.se>
+Description: Package provides API to get data and statistis for crime.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 2.10)
+LazyData: true
+Imports: jsonlite,httr,dplyr,ggplot2, shiny
+Suggests: knitr, rmarkdown, testthat, jsonlite
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
